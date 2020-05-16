@@ -27,6 +27,7 @@ SUBDIRS = featbin feat featbin-mask
 After the install step runs, you should add the kaldi/src/featbin-mask directory to the PATH variable.
 
 5. Check out compute-mfcc-feats-masks function for the added parameters.
+（此处应该是需要修改make-mfcc.sh中和make-mfcc-pitch.sh中的compute-mfcc-feats为compute-mfcc-feats-masks再加上下述的各个参数）
 
 ### Augmentations parameters
 Time Mask
